@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankita Shukla</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Ankita Shukla</h1>
+            <nav class="nav">
+                <ul class="nav__links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section__title">About Me</h2>
+            <p class="section__content">
+                I am an Assistant Professor in the Computer Science and Engineering Department at the University of Nevada, Reno, USA. My research interests include deep learning, machine learning for visual and time series data, and AI for social good.
+            </p>
+        </div>
+    </section>
+
+    <section id="research" class="section">
+        <div class="container">
+            <h2 class="section__title">Research</h2>
+            <p class="section__content">
+                I focus on leveraging geometric and deep learning approaches for computer vision and machine learning applications, with applications in AI for science and social good.
+            </p>
+        </div>
+    </section>
+
+    <section id="publications" class="section">
+        <div class="container">
+            <h2 class="section__title">Publications</h2>
+            <ul class="publications">
+                <li>Publication 1</li>
+                <li>Publication 2</li>
+                <li>Publication 3</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section__title">Contact Me</h2>
+            <p class="section__content">Email: <a href="mailto:ankitas@unr.edu">ankitas@unr.edu</a></p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Ankita Shukla. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
